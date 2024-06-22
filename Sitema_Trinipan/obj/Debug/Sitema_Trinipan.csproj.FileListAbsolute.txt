@@ -24,3 +24,5 @@ C:\Users\david\source\repos\Sitema_Trinipan\Sitema_Trinipan\obj\Debug\Sitema_Tri
 C:\Users\david\source\repos\Sitema_Trinipan\Sitema_Trinipan\obj\Debug\Sitema_Trinipan.Consultas.resources
 C:\Users\david\source\repos\Sitema_Trinipan\Sitema_Trinipan\obj\Debug\Sitema_Trinipan.ConsultasClientes.resources
 C:\Users\david\source\repos\Sitema_Trinipan\Sitema_Trinipan\obj\Debug\Sitema_Trinipan.ConsultasProductos.resources
+C:\Users\david\source\repos\Sitema_Trinipan\Sitema_Trinipan\obj\Debug\Sitema_Trinipan.Procesos.resources
+C:\Users\david\source\repos\Sitema_Trinipan\Sitema_Trinipan\obj\Debug\Sitema_Trinipan.Facturacion.resources

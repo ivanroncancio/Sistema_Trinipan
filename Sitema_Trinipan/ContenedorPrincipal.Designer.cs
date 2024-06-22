@@ -364,8 +364,9 @@
             // facturacionToolStripMenuItem
             // 
             this.facturacionToolStripMenuItem.Name = "facturacionToolStripMenuItem";
-            this.facturacionToolStripMenuItem.Size = new System.Drawing.Size(136, 22);
+            this.facturacionToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.facturacionToolStripMenuItem.Text = "Facturación";
+            this.facturacionToolStripMenuItem.Click += new System.EventHandler(this.facturacionToolStripMenuItem_Click);
             // 
             // consultasToolStripMenuItem
             // 

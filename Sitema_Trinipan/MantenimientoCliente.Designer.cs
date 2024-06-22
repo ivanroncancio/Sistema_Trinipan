@@ -114,6 +114,7 @@
             this.TexBox_idCliente.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.TexBox_idCliente.Validar = true;
             this.TexBox_idCliente.ValidarNumeros = true;
+            this.TexBox_idCliente.TextChanged += new System.EventHandler(this.TexBox_idCliente_TextChanged);
             // 
             // MantenimientoCliente
             // 

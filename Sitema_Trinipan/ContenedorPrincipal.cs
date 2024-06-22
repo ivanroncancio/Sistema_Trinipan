@@ -152,5 +152,12 @@ namespace Sitema_Trinipan
             consultasProductos.MdiParent = this;
             consultasProductos.Show();
         }
+
+        private void facturacionToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Facturacion facturacion = new Facturacion();
+            facturacion.MdiParent = this;
+            facturacion.Show();
+        }
     }
 }
