@@ -40,7 +40,11 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(175, 410);
+            this.button1.Location = new System.Drawing.Point(273, 415);
+            // 
+            // btn_Consultar
+            // 
+            this.btn_Consultar.Click += new System.EventHandler(this.btn_Consultar_Click);
             // 
             // TexBox_idProducto
             // 
@@ -52,6 +56,7 @@
             this.TexBox_idProducto.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.TexBox_idProducto.Validar = true;
             this.TexBox_idProducto.ValidarNumeros = true;
+            this.TexBox_idProducto.TextChanged += new System.EventHandler(this.TexBox_idProducto_TextChanged);
             // 
             // TexBox_Descripcion
             // 
@@ -129,6 +134,7 @@
             this.Controls.Add(this.TexBox_idProducto);
             this.Name = "MantenimientoProducto";
             this.Text = "MantenimientoProducto";
+            this.Controls.SetChildIndex(this.btn_Consultar, 0);
             this.Controls.SetChildIndex(this.button1, 0);
             this.Controls.SetChildIndex(this.button2, 0);
             this.Controls.SetChildIndex(this.button3, 0);

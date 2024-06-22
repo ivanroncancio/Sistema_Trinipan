@@ -16,5 +16,11 @@ namespace Sitema_Trinipan
         {
             InitializeComponent();
         }
+
+        private void btn_Consultar_Click(object sender, EventArgs e)
+        {
+            ConsultasClientes consultasClientes = new ConsultasClientes();
+            consultasClientes.Show();
+        }
     }
 }

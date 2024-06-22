@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             this.btn_Buscar = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
@@ -37,7 +38,11 @@
             this.button3 = new System.Windows.Forms.Button();
             this.btn_Imprimir = new System.Windows.Forms.Button();
             this.btn_Seleccionar = new System.Windows.Forms.Button();
+            this.sistema_TrinipanDataSet = new Sitema_Trinipan.Sistema_TrinipanDataSet();
+            this.sistemaTrinipanDataSetBindingSource = new System.Windows.Forms.BindingSource(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.sistema_TrinipanDataSet)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.sistemaTrinipanDataSetBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // btn_Buscar
@@ -78,6 +83,8 @@
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(40, 119);
             this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.ReadOnly = true;
+            this.dataGridView1.RowHeadersVisible = false;
             dataGridViewCellStyle1.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle1.ForeColor = System.Drawing.Color.Black;
             this.dataGridView1.RowsDefaultCellStyle = dataGridViewCellStyle1;
@@ -128,6 +135,16 @@
             this.btn_Seleccionar.Text = "Seleccionar";
             this.btn_Seleccionar.UseVisualStyleBackColor = true;
             // 
+            // sistema_TrinipanDataSet
+            // 
+            this.sistema_TrinipanDataSet.DataSetName = "Sistema_TrinipanDataSet";
+            this.sistema_TrinipanDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // sistemaTrinipanDataSetBindingSource
+            // 
+            this.sistemaTrinipanDataSetBindingSource.DataSource = this.sistema_TrinipanDataSet;
+            this.sistemaTrinipanDataSetBindingSource.Position = 0;
+            // 
             // Consultas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -147,6 +164,8 @@
             this.Name = "Consultas";
             this.Text = "Consultas";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.sistema_TrinipanDataSet)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.sistemaTrinipanDataSetBindingSource)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -162,5 +181,7 @@
         public System.Windows.Forms.Button button3;
         public System.Windows.Forms.Button btn_Imprimir;
         public System.Windows.Forms.Button btn_Seleccionar;
+        private System.Windows.Forms.BindingSource sistemaTrinipanDataSetBindingSource;
+        private Sistema_TrinipanDataSet sistema_TrinipanDataSet;
     }
 }

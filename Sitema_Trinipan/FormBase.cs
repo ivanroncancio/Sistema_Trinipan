@@ -16,5 +16,24 @@ namespace Sitema_Trinipan
         {
             InitializeComponent();
         }
+
+        public virtual void Eliminar()
+        {
+
+        }
+        public virtual void Nuevo()
+        {
+
+        }
+        public virtual void Consultar()
+        {
+
+        }
+        public virtual Boolean Guardar()
+        {
+            return false;
+        }
+
+
     }
 }

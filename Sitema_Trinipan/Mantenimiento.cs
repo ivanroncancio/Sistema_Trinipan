@@ -16,5 +16,25 @@ namespace Sitema_Trinipan
         {
             InitializeComponent();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Consultar();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Eliminar();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Nuevo();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Guardar();
+        }
     }
 }

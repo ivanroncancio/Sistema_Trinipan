@@ -32,11 +32,15 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.TexBox_Precio = new LibreriaDLL.ErrorTexBox();
-            this.TexBox_Descripcion = new LibreriaDLL.ErrorTexBox();
-            this.TexBox_idProducto = new LibreriaDLL.ErrorTexBox();
+            this.TexBox_ApellidoCliente = new LibreriaDLL.ErrorTexBox();
+            this.TexBox_NombreCliente = new LibreriaDLL.ErrorTexBox();
+            this.TexBox_idCliente = new LibreriaDLL.ErrorTexBox();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             this.SuspendLayout();
+            // 
+            // btn_Consultar
+            // 
+            this.btn_Consultar.Click += new System.EventHandler(this.btn_Consultar_Click);
             // 
             // label4
             // 
@@ -78,38 +82,38 @@
             this.label1.TabIndex = 47;
             this.label1.Text = "Id Cliente:";
             // 
-            // TexBox_Precio
+            // TexBox_ApellidoCliente
             // 
-            this.TexBox_Precio.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TexBox_Precio.Location = new System.Drawing.Point(192, 260);
-            this.TexBox_Precio.Name = "TexBox_Precio";
-            this.TexBox_Precio.Size = new System.Drawing.Size(237, 26);
-            this.TexBox_Precio.TabIndex = 46;
-            this.TexBox_Precio.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.TexBox_Precio.Validar = true;
-            this.TexBox_Precio.ValidarNumeros = false;
+            this.TexBox_ApellidoCliente.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TexBox_ApellidoCliente.Location = new System.Drawing.Point(192, 260);
+            this.TexBox_ApellidoCliente.Name = "TexBox_ApellidoCliente";
+            this.TexBox_ApellidoCliente.Size = new System.Drawing.Size(237, 26);
+            this.TexBox_ApellidoCliente.TabIndex = 46;
+            this.TexBox_ApellidoCliente.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.TexBox_ApellidoCliente.Validar = true;
+            this.TexBox_ApellidoCliente.ValidarNumeros = false;
             // 
-            // TexBox_Descripcion
+            // TexBox_NombreCliente
             // 
-            this.TexBox_Descripcion.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TexBox_Descripcion.Location = new System.Drawing.Point(192, 212);
-            this.TexBox_Descripcion.Name = "TexBox_Descripcion";
-            this.TexBox_Descripcion.Size = new System.Drawing.Size(237, 26);
-            this.TexBox_Descripcion.TabIndex = 45;
-            this.TexBox_Descripcion.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.TexBox_Descripcion.Validar = true;
-            this.TexBox_Descripcion.ValidarNumeros = false;
+            this.TexBox_NombreCliente.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TexBox_NombreCliente.Location = new System.Drawing.Point(192, 212);
+            this.TexBox_NombreCliente.Name = "TexBox_NombreCliente";
+            this.TexBox_NombreCliente.Size = new System.Drawing.Size(237, 26);
+            this.TexBox_NombreCliente.TabIndex = 45;
+            this.TexBox_NombreCliente.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.TexBox_NombreCliente.Validar = true;
+            this.TexBox_NombreCliente.ValidarNumeros = false;
             // 
-            // TexBox_idProducto
+            // TexBox_idCliente
             // 
-            this.TexBox_idProducto.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TexBox_idProducto.Location = new System.Drawing.Point(192, 164);
-            this.TexBox_idProducto.Name = "TexBox_idProducto";
-            this.TexBox_idProducto.Size = new System.Drawing.Size(237, 26);
-            this.TexBox_idProducto.TabIndex = 44;
-            this.TexBox_idProducto.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.TexBox_idProducto.Validar = true;
-            this.TexBox_idProducto.ValidarNumeros = true;
+            this.TexBox_idCliente.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TexBox_idCliente.Location = new System.Drawing.Point(192, 164);
+            this.TexBox_idCliente.Name = "TexBox_idCliente";
+            this.TexBox_idCliente.Size = new System.Drawing.Size(237, 26);
+            this.TexBox_idCliente.TabIndex = 44;
+            this.TexBox_idCliente.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.TexBox_idCliente.Validar = true;
+            this.TexBox_idCliente.ValidarNumeros = true;
             // 
             // MantenimientoCliente
             // 
@@ -120,17 +124,18 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.TexBox_Precio);
-            this.Controls.Add(this.TexBox_Descripcion);
-            this.Controls.Add(this.TexBox_idProducto);
+            this.Controls.Add(this.TexBox_ApellidoCliente);
+            this.Controls.Add(this.TexBox_NombreCliente);
+            this.Controls.Add(this.TexBox_idCliente);
             this.Name = "MantenimientoCliente";
             this.Text = "MantenimientoCliente";
+            this.Controls.SetChildIndex(this.btn_Consultar, 0);
             this.Controls.SetChildIndex(this.button1, 0);
             this.Controls.SetChildIndex(this.button2, 0);
             this.Controls.SetChildIndex(this.button3, 0);
-            this.Controls.SetChildIndex(this.TexBox_idProducto, 0);
-            this.Controls.SetChildIndex(this.TexBox_Descripcion, 0);
-            this.Controls.SetChildIndex(this.TexBox_Precio, 0);
+            this.Controls.SetChildIndex(this.TexBox_idCliente, 0);
+            this.Controls.SetChildIndex(this.TexBox_NombreCliente, 0);
+            this.Controls.SetChildIndex(this.TexBox_ApellidoCliente, 0);
             this.Controls.SetChildIndex(this.label1, 0);
             this.Controls.SetChildIndex(this.label2, 0);
             this.Controls.SetChildIndex(this.label3, 0);
@@ -147,8 +152,8 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private LibreriaDLL.ErrorTexBox TexBox_Precio;
-        private LibreriaDLL.ErrorTexBox TexBox_Descripcion;
-        private LibreriaDLL.ErrorTexBox TexBox_idProducto;
+        private LibreriaDLL.ErrorTexBox TexBox_ApellidoCliente;
+        private LibreriaDLL.ErrorTexBox TexBox_NombreCliente;
+        private LibreriaDLL.ErrorTexBox TexBox_idCliente;
     }
 }
