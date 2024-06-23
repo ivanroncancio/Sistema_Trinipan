@@ -156,6 +156,7 @@ namespace Sitema_Trinipan
                 TexBox_CodigoArticulo.Text = consultasProductos.dataGridView1.Rows[consultasProductos.dataGridView1.CurrentRow.Index].Cells[0].Value.ToString();
                 TexBox_DescripcionArticulo.Text = consultasProductos.dataGridView1.Rows[consultasProductos.dataGridView1.CurrentRow.Index].Cells[1].Value.ToString();
                 TexBox_PrecioArticulo.Text = consultasProductos.dataGridView1.Rows[consultasProductos.dataGridView1.CurrentRow.Index].Cells[2].Value.ToString();
+
                 TexBox_CantidadArticulo.Focus();
             }
         }
