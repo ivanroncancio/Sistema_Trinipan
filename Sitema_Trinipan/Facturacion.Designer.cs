@@ -66,6 +66,7 @@
             this.TexBox_PrecioArticulo = new LibreriaDLL.ErrorTexBox();
             this.TexBox_CantidadArticulo = new LibreriaDLL.ErrorTexBox();
             this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
+            this.label15 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
@@ -126,7 +127,7 @@
             this.lbl_vendedor.BackColor = System.Drawing.Color.White;
             this.lbl_vendedor.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.lbl_vendedor.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_vendedor.Location = new System.Drawing.Point(115, 62);
+            this.lbl_vendedor.Location = new System.Drawing.Point(115, 110);
             this.lbl_vendedor.Name = "lbl_vendedor";
             this.lbl_vendedor.Size = new System.Drawing.Size(308, 25);
             this.lbl_vendedor.TabIndex = 51;
@@ -142,6 +143,7 @@
             this.btn_Nuevo.TabIndex = 50;
             this.btn_Nuevo.Text = "Nuevo";
             this.btn_Nuevo.UseVisualStyleBackColor = true;
+            this.btn_Nuevo.Click += new System.EventHandler(this.btn_Nuevo_Click);
             // 
             // lbl_Total
             // 
@@ -226,6 +228,8 @@
             // 
             this.dataGridView1.AllowUserToAddRows = false;
             this.dataGridView1.AllowUserToDeleteRows = false;
+            this.dataGridView1.AllowUserToResizeColumns = false;
+            this.dataGridView1.AllowUserToResizeRows = false;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.ColumnHeadersVisible = false;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
@@ -280,7 +284,7 @@
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(17, 66);
+            this.label8.Location = new System.Drawing.Point(17, 114);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(92, 20);
             this.label8.TabIndex = 45;
@@ -290,7 +294,7 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(39, 115);
+            this.label7.Location = new System.Drawing.Point(39, 163);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(70, 20);
             this.label7.TabIndex = 44;
@@ -300,7 +304,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(39, 169);
+            this.label6.Location = new System.Drawing.Point(39, 217);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(70, 20);
             this.label6.TabIndex = 43;
@@ -316,6 +320,7 @@
             this.btn_Eliminar.TabIndex = 37;
             this.btn_Eliminar.Text = "Eliminar";
             this.btn_Eliminar.UseVisualStyleBackColor = true;
+            this.btn_Eliminar.Click += new System.EventHandler(this.btn_Eliminar_Click);
             // 
             // bnt_Facturar
             // 
@@ -338,12 +343,13 @@
             this.btn_Productos.TabIndex = 35;
             this.btn_Productos.Text = "Productos";
             this.btn_Productos.UseVisualStyleBackColor = true;
+            this.btn_Productos.Click += new System.EventHandler(this.btn_Productos_Click);
             // 
             // btn_Buscar
             // 
             this.btn_Buscar.AutoSize = true;
             this.btn_Buscar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_Buscar.Location = new System.Drawing.Point(447, 113);
+            this.btn_Buscar.Location = new System.Drawing.Point(447, 161);
             this.btn_Buscar.Name = "btn_Buscar";
             this.btn_Buscar.Size = new System.Drawing.Size(75, 30);
             this.btn_Buscar.TabIndex = 34;
@@ -361,6 +367,7 @@
             this.btn_Clientes.TabIndex = 33;
             this.btn_Clientes.Text = "Clientes";
             this.btn_Clientes.UseVisualStyleBackColor = true;
+            this.btn_Clientes.Click += new System.EventHandler(this.btn_Clientes_Click);
             // 
             // btn_Colocar
             // 
@@ -372,22 +379,24 @@
             this.btn_Colocar.TabIndex = 32;
             this.btn_Colocar.Text = "Colocar";
             this.btn_Colocar.UseVisualStyleBackColor = true;
+            this.btn_Colocar.Click += new System.EventHandler(this.btn_Colocar_Click);
             // 
             // TexBox_CodigoCliente
             // 
             this.TexBox_CodigoCliente.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TexBox_CodigoCliente.Location = new System.Drawing.Point(115, 113);
+            this.TexBox_CodigoCliente.Location = new System.Drawing.Point(115, 161);
             this.TexBox_CodigoCliente.Name = "TexBox_CodigoCliente";
             this.TexBox_CodigoCliente.Size = new System.Drawing.Size(308, 26);
             this.TexBox_CodigoCliente.TabIndex = 57;
             this.TexBox_CodigoCliente.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.TexBox_CodigoCliente.Validar = true;
             this.TexBox_CodigoCliente.ValidarNumeros = true;
+            this.TexBox_CodigoCliente.TextChanged += new System.EventHandler(this.TexBox_CodigoCliente_TextChanged);
             // 
             // TexBox_NombreCliente
             // 
             this.TexBox_NombreCliente.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TexBox_NombreCliente.Location = new System.Drawing.Point(115, 167);
+            this.TexBox_NombreCliente.Location = new System.Drawing.Point(115, 215);
             this.TexBox_NombreCliente.Name = "TexBox_NombreCliente";
             this.TexBox_NombreCliente.Size = new System.Drawing.Size(308, 26);
             this.TexBox_NombreCliente.TabIndex = 58;
@@ -439,11 +448,22 @@
             // 
             this.errorProvider1.ContainerControl = this;
             // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Font = new System.Drawing.Font("Elephant", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.Location = new System.Drawing.Point(89, 33);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(357, 47);
+            this.label15.TabIndex = 63;
+            this.label15.Text = "FACTURACIÓN";
+            // 
             // Facturacion
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1275, 886);
+            this.Controls.Add(this.label15);
             this.Controls.Add(this.TexBox_CantidadArticulo);
             this.Controls.Add(this.TexBox_PrecioArticulo);
             this.Controls.Add(this.TexBox_DescripcionArticulo);
@@ -528,5 +548,6 @@
         private LibreriaDLL.ErrorTexBox TexBox_PrecioArticulo;
         private LibreriaDLL.ErrorTexBox TexBox_CantidadArticulo;
         private System.Windows.Forms.ErrorProvider errorProvider1;
+        private System.Windows.Forms.Label label15;
     }
 }

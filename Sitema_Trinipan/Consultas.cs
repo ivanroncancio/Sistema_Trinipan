@@ -24,6 +24,19 @@ namespace Sitema_Trinipan
             DataSet ds = Biblioteca.Herramientas(cmd);
             return ds;
         }
+
+        private void btn_Seleccionar_Click(object sender, EventArgs e)
+        {
+            if (dataGridView1.Rows.Count ==  0)
+            {
+                return;
+            }
+            else
+            {
+                DialogResult = DialogResult.OK;
+                Close();
+            }
+        }
     }
     
 }
