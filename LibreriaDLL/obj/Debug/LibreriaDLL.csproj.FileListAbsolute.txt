@@ -4,3 +4,9 @@ C:\Users\david\source\repos\Sitema_Trinipan\LibreriaDLL\obj\Debug\LibreriaDLL.cs
 C:\Users\david\source\repos\Sitema_Trinipan\LibreriaDLL\obj\Debug\LibreriaDLL.dll
 C:\Users\david\source\repos\Sitema_Trinipan\LibreriaDLL\obj\Debug\LibreriaDLL.pdb
 C:\Users\david\source\repos\Sitema_Trinipan\LibreriaDLL\obj\Debug\Libreria.B2D2E218.Up2Date
+C:\Users\david\source\repos\Sistema_Trinipan\LibreriaDLL\bin\Debug\LibreriaDLL.pdb
+C:\Users\david\source\repos\Sistema_Trinipan\LibreriaDLL\obj\Debug\LibreriaDLL.csproj.AssemblyReference.cache
+C:\Users\david\source\repos\Sistema_Trinipan\LibreriaDLL\obj\Debug\LibreriaDLL.csproj.CoreCompileInputs.cache
+C:\Users\david\source\repos\Sistema_Trinipan\LibreriaDLL\obj\Debug\Libreria.B2D2E218.Up2Date
+C:\Users\david\source\repos\Sistema_Trinipan\LibreriaDLL\obj\Debug\LibreriaDLL.dll
+C:\Users\david\source\repos\Sistema_Trinipan\LibreriaDLL\obj\Debug\LibreriaDLL.pdb

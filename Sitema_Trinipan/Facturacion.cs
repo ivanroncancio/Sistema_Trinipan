@@ -1,4 +1,5 @@
 ﻿using LibreriaDLL;
+using Microsoft.Reporting.WinForms;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -8,6 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+
 
 
 namespace Sitema_Trinipan
@@ -181,6 +183,39 @@ namespace Sitema_Trinipan
 
             TexBox_CodigoCliente.Focus();
 
+        }
+
+        private void bnt_Facturar_Click(object sender, EventArgs e)
+        {
+            if (contadorFila != 0)
+            {
+                string cmd = string.Format("Exec ActualizarFacturas '{0}' ", TexBox_CodigoCliente.Text.Trim());
+                DataSet ds = Biblioteca.Herramientas(cmd);
+
+                string NumeroFactura = ds.Tables[0].Rows[0]["NumeroFactura"].ToString().Trim();
+
+                foreach (DataGridViewRow Fila in dataGridView1.Rows)
+                {
+                    cmd = string.Format("Exec ActualizarDetalles '{0}','{1}','{2}','{3}' ", NumeroFactura, Fila.Cells[0].Value.ToString(), Fila.Cells[2].Value.ToString(), Fila.Cells[3].Value.ToString());
+
+                    ds = Biblioteca.Herramientas(cmd);
+                }
+
+                cmd = "Exec DatosFactura " + NumeroFactura;
+
+                ds = Biblioteca.Herramientas(cmd);
+
+                Factura factura = new Factura();
+
+                factura.reportViewer1.LocalReport.DataSources.Clear();
+                ReportDataSource rds = new ReportDataSource("DataSet1", ds.Tables[0]); 
+                factura.reportViewer1.LocalReport.DataSources.Add(rds);
+                
+                factura.reportViewer1.RefreshReport();
+
+                factura.ShowDialog();
+                
+            }
         }
     }
 }

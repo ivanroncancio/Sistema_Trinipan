@@ -332,6 +332,7 @@
             this.bnt_Facturar.TabIndex = 36;
             this.bnt_Facturar.Text = "Facturar";
             this.bnt_Facturar.UseVisualStyleBackColor = true;
+            this.bnt_Facturar.Click += new System.EventHandler(this.bnt_Facturar_Click);
             // 
             // btn_Productos
             // 
