@@ -9,6 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using LibreriaDLL;
+using Microsoft.Reporting.WinForms;
 
 namespace Sitema_Trinipan
 {
@@ -29,13 +30,15 @@ namespace Sitema_Trinipan
         {
             if (dataGridView1.Rows.Count ==  0)
             {
+                
                 return;
             }
             else
-            {
+            {                
                 DialogResult = DialogResult.OK;
                 Close();
             }
+            
         }
     }
     

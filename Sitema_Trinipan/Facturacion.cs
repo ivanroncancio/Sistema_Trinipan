@@ -66,6 +66,7 @@ namespace Sitema_Trinipan
                     double importe = Convert.ToDouble(dataGridView1.Rows[contadorFila].Cells[2].Value) * Convert.ToDouble(dataGridView1.Rows[contadorFila].Cells[3].Value);
                     dataGridView1.Rows[contadorFila].Cells[4].Value = importe;
                     
+                    
                     contadorFila++;
 
                 }
@@ -97,6 +98,10 @@ namespace Sitema_Trinipan
                         dataGridView1.Rows[contadorFila].Cells[4].Value = importe;
 
                         contadorFila++;
+
+                        
+                        
+
                     }
 
 
@@ -145,6 +150,8 @@ namespace Sitema_Trinipan
                 TexBox_NombreCliente.Text = consultasClientes.dataGridView1.Rows[consultasClientes.dataGridView1.CurrentRow.Index].Cells[1].Value.ToString();
 
                 TexBox_CodigoArticulo.Focus();
+
+                
             }
         }
 
@@ -208,13 +215,17 @@ namespace Sitema_Trinipan
                 Factura factura = new Factura();
 
                 factura.reportViewer1.LocalReport.DataSources.Clear();
-                ReportDataSource rds = new ReportDataSource("DataSet1", ds.Tables[0]); 
-                factura.reportViewer1.LocalReport.DataSources.Add(rds);
-                
+                ReportDataSource rds = new ReportDataSource("DataSet1", ds.Tables[0]);                
+                factura.reportViewer1.LocalReport.DataSources.Add(rds);              
+
                 factura.reportViewer1.RefreshReport();
 
                 factura.ShowDialog();
+
+                Nuevo();
+
                 
+
             }
         }
     }
