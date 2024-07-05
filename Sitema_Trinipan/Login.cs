@@ -9,8 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using LibreriaDLL;
-
-
+using System.Runtime.InteropServices;
 
 namespace Sitema_Trinipan
 {
@@ -20,6 +19,11 @@ namespace Sitema_Trinipan
         {
             InitializeComponent();
         }
+
+        [DllImport("user32.DLL", EntryPoint = "ReleaseCapture")]
+        private extern static void ReleaseCapture();
+        [DllImport("user32.DLL", EntryPoint = "SendMessage")]
+        private static extern void SendMessage(IntPtr hwnd, int wMsg, int wParam, int lParam);
 
         public static string codigo;
 
@@ -42,17 +46,47 @@ namespace Sitema_Trinipan
                 }
                 else
                 {
-                    this.Hide();
+                    this.Close();
                     Usuario usuario = new Usuario();
                     usuario.Show();
                 }
-                
+
             }
             catch
             {
                 MessageBox.Show("Usuario Incorrecto ");
             }
+        }
 
+        private void pictureBox5_Click(object sender, EventArgs e)
+        {
+            var cerrar = MessageBox.Show("Estas seguro que deseas cerrar la ventana","Aviso",MessageBoxButtons.YesNo,MessageBoxIcon.Question);
+            if (cerrar == DialogResult.Yes)
+            {
+                Application.Exit();
+            }
+            
+        }
+
+        private void pictureBox6_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+        }
+
+        private void Login_MouseDown(object sender, MouseEventArgs e)
+        {
+            ReleaseCapture();
+            SendMessage(this.Handle, 0x112, 0xf012, 0);
+        }
+
+        private void textBox_Contrasena_Leave(object sender, EventArgs e)
+        {
+            textBox_Contrasena.UseSystemPasswordChar = true;
+        }
+
+        private void textBox_Contrasena_Enter(object sender, EventArgs e)
+        {
+            textBox_Contrasena.UseSystemPasswordChar = true;
         }
     }
 }

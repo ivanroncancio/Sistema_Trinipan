@@ -4,6 +4,7 @@ using System.Data;
 using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -62,9 +63,23 @@ namespace LibreriaDLL
                             ErrorProvider.SetError(objeto, "Solo se aceptan numeros");
                         }
                     }
+                    if (objeto.ValidarCorreo == true)
+                    {
+                        if (!EsEmailValido(objeto.Text.Trim()))
+                        {
+                            SiError = true;
+                            ErrorProvider.SetError(objeto, "Correo electrónico no válido");
+                        }
+                    }
                 }
             }
             return SiError;
+        }
+        private static bool EsEmailValido(string email)
+        {
+            // Expresión regular para validar correos electrónicos
+            string patronEmail = @"^[^@\s]+@[^@\s]+\.[^@\s]+$";
+            return Regex.IsMatch(email, patronEmail);
         }
     }
 }

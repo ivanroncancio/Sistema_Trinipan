@@ -3,64 +3,92 @@
   "WorkspaceRootPath": "C:\\Users\\david\\source\\repos\\Sistema_Trinipan\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{496AC2D6-ECC2-4DB6-8372-6013D667002E}|Sitema_Trinipan\\Sitema_Trinipan.csproj|c:\\users\\david\\source\\repos\\sistema_trinipan\\sitema_trinipan\\adminusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{496AC2D6-ECC2-4DB6-8372-6013D667002E}|Sitema_Trinipan\\Sitema_Trinipan.csproj|solutionrelative:sitema_trinipan\\adminusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{496AC2D6-ECC2-4DB6-8372-6013D667002E}|Sitema_Trinipan\\Sitema_Trinipan.csproj|c:\\users\\david\\source\\repos\\sistema_trinipan\\sitema_trinipan\\adminusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{496AC2D6-ECC2-4DB6-8372-6013D667002E}|Sitema_Trinipan\\Sitema_Trinipan.csproj|solutionrelative:sitema_trinipan\\adminusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{496AC2D6-ECC2-4DB6-8372-6013D667002E}|Sitema_Trinipan\\Sitema_Trinipan.csproj|c:\\users\\david\\source\\repos\\sistema_trinipan\\sitema_trinipan\\ventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{496AC2D6-ECC2-4DB6-8372-6013D667002E}|Sitema_Trinipan\\Sitema_Trinipan.csproj|solutionrelative:sitema_trinipan\\ventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{496AC2D6-ECC2-4DB6-8372-6013D667002E}|Sitema_Trinipan\\Sitema_Trinipan.csproj|c:\\users\\david\\source\\repos\\sistema_trinipan\\sitema_trinipan\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{496AC2D6-ECC2-4DB6-8372-6013D667002E}|Sitema_Trinipan\\Sitema_Trinipan.csproj|solutionrelative:sitema_trinipan\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{496AC2D6-ECC2-4DB6-8372-6013D667002E}|Sitema_Trinipan\\Sitema_Trinipan.csproj|c:\\users\\david\\source\\repos\\sistema_trinipan\\sitema_trinipan\\reporteventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{496AC2D6-ECC2-4DB6-8372-6013D667002E}|Sitema_Trinipan\\Sitema_Trinipan.csproj|solutionrelative:sitema_trinipan\\reporteventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{496AC2D6-ECC2-4DB6-8372-6013D667002E}|Sitema_Trinipan\\Sitema_Trinipan.csproj|c:\\users\\david\\source\\repos\\sistema_trinipan\\sitema_trinipan\\registrar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{496AC2D6-ECC2-4DB6-8372-6013D667002E}|Sitema_Trinipan\\Sitema_Trinipan.csproj|solutionrelative:sitema_trinipan\\registrar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{496AC2D6-ECC2-4DB6-8372-6013D667002E}|Sitema_Trinipan\\Sitema_Trinipan.csproj|c:\\users\\david\\source\\repos\\sistema_trinipan\\sitema_trinipan\\procesos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{496AC2D6-ECC2-4DB6-8372-6013D667002E}|Sitema_Trinipan\\Sitema_Trinipan.csproj|solutionrelative:sitema_trinipan\\procesos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{496AC2D6-ECC2-4DB6-8372-6013D667002E}|Sitema_Trinipan\\Sitema_Trinipan.csproj|c:\\users\\david\\source\\repos\\sistema_trinipan\\sitema_trinipan\\mantenimientoproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{496AC2D6-ECC2-4DB6-8372-6013D667002E}|Sitema_Trinipan\\Sitema_Trinipan.csproj|solutionrelative:sitema_trinipan\\mantenimientoproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{496AC2D6-ECC2-4DB6-8372-6013D667002E}|Sitema_Trinipan\\Sitema_Trinipan.csproj|c:\\users\\david\\source\\repos\\sistema_trinipan\\sitema_trinipan\\mantenimientocliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{496AC2D6-ECC2-4DB6-8372-6013D667002E}|Sitema_Trinipan\\Sitema_Trinipan.csproj|solutionrelative:sitema_trinipan\\mantenimientocliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{496AC2D6-ECC2-4DB6-8372-6013D667002E}|Sitema_Trinipan\\Sitema_Trinipan.csproj|c:\\users\\david\\source\\repos\\sistema_trinipan\\sitema_trinipan\\mantenimiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{496AC2D6-ECC2-4DB6-8372-6013D667002E}|Sitema_Trinipan\\Sitema_Trinipan.csproj|solutionrelative:sitema_trinipan\\mantenimiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{496AC2D6-ECC2-4DB6-8372-6013D667002E}|Sitema_Trinipan\\Sitema_Trinipan.csproj|c:\\users\\david\\source\\repos\\sistema_trinipan\\sitema_trinipan\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{496AC2D6-ECC2-4DB6-8372-6013D667002E}|Sitema_Trinipan\\Sitema_Trinipan.csproj|solutionrelative:sitema_trinipan\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{496AC2D6-ECC2-4DB6-8372-6013D667002E}|Sitema_Trinipan\\Sitema_Trinipan.csproj|c:\\users\\david\\source\\repos\\sistema_trinipan\\sitema_trinipan\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{496AC2D6-ECC2-4DB6-8372-6013D667002E}|Sitema_Trinipan\\Sitema_Trinipan.csproj|solutionrelative:sitema_trinipan\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{496AC2D6-ECC2-4DB6-8372-6013D667002E}|Sitema_Trinipan\\Sitema_Trinipan.csproj|C:\\Users\\david\\source\\repos\\Sistema_Trinipan\\sitema_trinipan\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{496AC2D6-ECC2-4DB6-8372-6013D667002E}|Sitema_Trinipan\\Sitema_Trinipan.csproj|solutionrelative:sitema_trinipan\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{496AC2D6-ECC2-4DB6-8372-6013D667002E}|Sitema_Trinipan\\Sitema_Trinipan.csproj|c:\\users\\david\\source\\repos\\sistema_trinipan\\sitema_trinipan\\formbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{496AC2D6-ECC2-4DB6-8372-6013D667002E}|Sitema_Trinipan\\Sitema_Trinipan.csproj|solutionrelative:sitema_trinipan\\formbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{496AC2D6-ECC2-4DB6-8372-6013D667002E}|Sitema_Trinipan\\Sitema_Trinipan.csproj|C:\\Users\\david\\source\\repos\\Sistema_Trinipan\\sitema_trinipan\\registrar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{496AC2D6-ECC2-4DB6-8372-6013D667002E}|Sitema_Trinipan\\Sitema_Trinipan.csproj|solutionrelative:sitema_trinipan\\registrar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{496AC2D6-ECC2-4DB6-8372-6013D667002E}|Sitema_Trinipan\\Sitema_Trinipan.csproj|c:\\users\\david\\source\\repos\\sistema_trinipan\\sitema_trinipan\\facturacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{496AC2D6-ECC2-4DB6-8372-6013D667002E}|Sitema_Trinipan\\Sitema_Trinipan.csproj|solutionrelative:sitema_trinipan\\facturacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{496AC2D6-ECC2-4DB6-8372-6013D667002E}|Sitema_Trinipan\\Sitema_Trinipan.csproj|C:\\Users\\david\\source\\repos\\Sistema_Trinipan\\sitema_trinipan\\mantenimientoproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{496AC2D6-ECC2-4DB6-8372-6013D667002E}|Sitema_Trinipan\\Sitema_Trinipan.csproj|solutionrelative:sitema_trinipan\\mantenimientoproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{496AC2D6-ECC2-4DB6-8372-6013D667002E}|Sitema_Trinipan\\Sitema_Trinipan.csproj|C:\\Users\\david\\source\\repos\\Sistema_Trinipan\\sitema_trinipan\\mantenimientoproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{496AC2D6-ECC2-4DB6-8372-6013D667002E}|Sitema_Trinipan\\Sitema_Trinipan.csproj|solutionrelative:sitema_trinipan\\mantenimientoproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{496AC2D6-ECC2-4DB6-8372-6013D667002E}|Sitema_Trinipan\\Sitema_Trinipan.csproj|C:\\Users\\david\\source\\repos\\Sistema_Trinipan\\sitema_trinipan\\mantenimientocliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{496AC2D6-ECC2-4DB6-8372-6013D667002E}|Sitema_Trinipan\\Sitema_Trinipan.csproj|solutionrelative:sitema_trinipan\\mantenimientocliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{496AC2D6-ECC2-4DB6-8372-6013D667002E}|Sitema_Trinipan\\Sitema_Trinipan.csproj|C:\\Users\\david\\source\\repos\\Sistema_Trinipan\\sitema_trinipan\\mantenimientocliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{496AC2D6-ECC2-4DB6-8372-6013D667002E}|Sitema_Trinipan\\Sitema_Trinipan.csproj|solutionrelative:sitema_trinipan\\mantenimientocliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{496AC2D6-ECC2-4DB6-8372-6013D667002E}|Sitema_Trinipan\\Sitema_Trinipan.csproj|C:\\Users\\david\\source\\repos\\Sistema_Trinipan\\sitema_trinipan\\factura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{496AC2D6-ECC2-4DB6-8372-6013D667002E}|Sitema_Trinipan\\Sitema_Trinipan.csproj|solutionrelative:sitema_trinipan\\factura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{496AC2D6-ECC2-4DB6-8372-6013D667002E}|Sitema_Trinipan\\Sitema_Trinipan.csproj|C:\\Users\\david\\source\\repos\\Sistema_Trinipan\\sitema_trinipan\\facturacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{496AC2D6-ECC2-4DB6-8372-6013D667002E}|Sitema_Trinipan\\Sitema_Trinipan.csproj|solutionrelative:sitema_trinipan\\facturacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{496AC2D6-ECC2-4DB6-8372-6013D667002E}|Sitema_Trinipan\\Sitema_Trinipan.csproj|C:\\Users\\david\\source\\repos\\Sistema_Trinipan\\sitema_trinipan\\factura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{496AC2D6-ECC2-4DB6-8372-6013D667002E}|Sitema_Trinipan\\Sitema_Trinipan.csproj|c:\\users\\david\\source\\repos\\sistema_trinipan\\sitema_trinipan\\factura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{496AC2D6-ECC2-4DB6-8372-6013D667002E}|Sitema_Trinipan\\Sitema_Trinipan.csproj|solutionrelative:sitema_trinipan\\factura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{496AC2D6-ECC2-4DB6-8372-6013D667002E}|Sitema_Trinipan\\Sitema_Trinipan.csproj|C:\\Users\\david\\source\\repos\\Sistema_Trinipan\\sitema_trinipan\\consultasproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{496AC2D6-ECC2-4DB6-8372-6013D667002E}|Sitema_Trinipan\\Sitema_Trinipan.csproj|c:\\users\\david\\source\\repos\\sistema_trinipan\\sitema_trinipan\\contrase\u00F1a.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{496AC2D6-ECC2-4DB6-8372-6013D667002E}|Sitema_Trinipan\\Sitema_Trinipan.csproj|solutionrelative:sitema_trinipan\\contrase\u00F1a.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{496AC2D6-ECC2-4DB6-8372-6013D667002E}|Sitema_Trinipan\\Sitema_Trinipan.csproj|c:\\users\\david\\source\\repos\\sistema_trinipan\\sitema_trinipan\\contenedorprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{496AC2D6-ECC2-4DB6-8372-6013D667002E}|Sitema_Trinipan\\Sitema_Trinipan.csproj|solutionrelative:sitema_trinipan\\contenedorprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{496AC2D6-ECC2-4DB6-8372-6013D667002E}|Sitema_Trinipan\\Sitema_Trinipan.csproj|c:\\users\\david\\source\\repos\\sistema_trinipan\\sitema_trinipan\\consultasproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{496AC2D6-ECC2-4DB6-8372-6013D667002E}|Sitema_Trinipan\\Sitema_Trinipan.csproj|solutionrelative:sitema_trinipan\\consultasproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{496AC2D6-ECC2-4DB6-8372-6013D667002E}|Sitema_Trinipan\\Sitema_Trinipan.csproj|C:\\Users\\david\\source\\repos\\Sistema_Trinipan\\sitema_trinipan\\consultas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{496AC2D6-ECC2-4DB6-8372-6013D667002E}|Sitema_Trinipan\\Sitema_Trinipan.csproj|solutionrelative:sitema_trinipan\\consultas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{496AC2D6-ECC2-4DB6-8372-6013D667002E}|Sitema_Trinipan\\Sitema_Trinipan.csproj|c:\\users\\david\\source\\repos\\sistema_trinipan\\sitema_trinipan\\consultasclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{496AC2D6-ECC2-4DB6-8372-6013D667002E}|Sitema_Trinipan\\Sitema_Trinipan.csproj|solutionrelative:sitema_trinipan\\consultasclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{496AC2D6-ECC2-4DB6-8372-6013D667002E}|Sitema_Trinipan\\Sitema_Trinipan.csproj|C:\\Users\\david\\source\\repos\\Sistema_Trinipan\\sitema_trinipan\\consultas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{496AC2D6-ECC2-4DB6-8372-6013D667002E}|Sitema_Trinipan\\Sitema_Trinipan.csproj|solutionrelative:sitema_trinipan\\consultas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{496AC2D6-ECC2-4DB6-8372-6013D667002E}|Sitema_Trinipan\\Sitema_Trinipan.csproj|c:\\users\\david\\source\\repos\\sistema_trinipan\\sitema_trinipan\\cambiarfoto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{496AC2D6-ECC2-4DB6-8372-6013D667002E}|Sitema_Trinipan\\Sitema_Trinipan.csproj|solutionrelative:sitema_trinipan\\cambiarfoto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{496AC2D6-ECC2-4DB6-8372-6013D667002E}|Sitema_Trinipan\\Sitema_Trinipan.csproj|C:\\Users\\david\\source\\repos\\Sistema_Trinipan\\sitema_trinipan\\report1.rdlc||{46F6D2A1-5E86-4080-A799-01F3D0E23796}",
-      "RelativeMoniker": "D:0:0:{496AC2D6-ECC2-4DB6-8372-6013D667002E}|Sitema_Trinipan\\Sitema_Trinipan.csproj|solutionrelative:sitema_trinipan\\report1.rdlc||{46F6D2A1-5E86-4080-A799-01F3D0E23796}"
+      "AbsoluteMoniker": "D:0:0:{496AC2D6-ECC2-4DB6-8372-6013D667002E}|Sitema_Trinipan\\Sitema_Trinipan.csproj|c:\\users\\david\\source\\repos\\sistema_trinipan\\sitema_trinipan\\administrador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{496AC2D6-ECC2-4DB6-8372-6013D667002E}|Sitema_Trinipan\\Sitema_Trinipan.csproj|solutionrelative:sitema_trinipan\\administrador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{496AC2D6-ECC2-4DB6-8372-6013D667002E}|Sitema_Trinipan\\Sitema_Trinipan.csproj|C:\\Users\\david\\source\\repos\\Sistema_Trinipan\\sitema_trinipan\\facturacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{496AC2D6-ECC2-4DB6-8372-6013D667002E}|Sitema_Trinipan\\Sitema_Trinipan.csproj|solutionrelative:sitema_trinipan\\facturacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{496AC2D6-ECC2-4DB6-8372-6013D667002E}|Sitema_Trinipan\\Sitema_Trinipan.csproj|c:\\users\\david\\source\\repos\\sistema_trinipan\\sitema_trinipan\\actualizaciondedatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{496AC2D6-ECC2-4DB6-8372-6013D667002E}|Sitema_Trinipan\\Sitema_Trinipan.csproj|solutionrelative:sitema_trinipan\\actualizaciondedatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -70,178 +98,272 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Login.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\david\\source\\repos\\Sistema_Trinipan\\Sitema_Trinipan\\Login.cs",
-              "RelativeDocumentMoniker": "Sitema_Trinipan\\Login.cs",
-              "ToolTip": "C:\\Users\\david\\source\\repos\\Sistema_Trinipan\\Sitema_Trinipan\\Login.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Sitema_Trinipan\\Login.cs [Dise\u00F1o]",
+              "Title": "AdminUsuarios.cs",
+              "DocumentMoniker": "C:\\Users\\david\\source\\repos\\Sistema_Trinipan\\Sitema_Trinipan\\AdminUsuarios.cs",
+              "RelativeDocumentMoniker": "Sitema_Trinipan\\AdminUsuarios.cs",
+              "ToolTip": "C:\\Users\\david\\source\\repos\\Sistema_Trinipan\\Sitema_Trinipan\\AdminUsuarios.cs",
+              "RelativeToolTip": "Sitema_Trinipan\\AdminUsuarios.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAgwFwAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-25T00:52:44.064Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Inicio.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\david\\source\\repos\\Sistema_Trinipan\\Sitema_Trinipan\\Inicio.cs",
-              "RelativeDocumentMoniker": "Sitema_Trinipan\\Inicio.cs",
-              "ToolTip": "C:\\Users\\david\\source\\repos\\Sistema_Trinipan\\Sitema_Trinipan\\Inicio.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Sitema_Trinipan\\Inicio.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-25T00:52:07.923Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-07-05T02:17:57.276Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Registrar.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\david\\source\\repos\\Sistema_Trinipan\\Sitema_Trinipan\\Registrar.cs",
-              "RelativeDocumentMoniker": "Sitema_Trinipan\\Registrar.cs",
-              "ToolTip": "C:\\Users\\david\\source\\repos\\Sistema_Trinipan\\Sitema_Trinipan\\Registrar.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Sitema_Trinipan\\Registrar.cs [Dise\u00F1o]",
+              "Title": "Ventas.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\david\\source\\repos\\Sistema_Trinipan\\Sitema_Trinipan\\Ventas.cs",
+              "RelativeDocumentMoniker": "Sitema_Trinipan\\Ventas.cs",
+              "ToolTip": "C:\\Users\\david\\source\\repos\\Sistema_Trinipan\\Sitema_Trinipan\\Ventas.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Sitema_Trinipan\\Ventas.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-25T00:51:56.452Z"
+              "WhenOpened": "2024-07-05T02:07:33.555Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MantenimientoProducto.cs",
-              "DocumentMoniker": "C:\\Users\\david\\source\\repos\\Sistema_Trinipan\\Sitema_Trinipan\\MantenimientoProducto.cs",
-              "RelativeDocumentMoniker": "Sitema_Trinipan\\MantenimientoProducto.cs",
-              "ToolTip": "C:\\Users\\david\\source\\repos\\Sistema_Trinipan\\Sitema_Trinipan\\MantenimientoProducto.cs",
-              "RelativeToolTip": "Sitema_Trinipan\\MantenimientoProducto.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAACYAAAAMAAAA",
+              "DocumentIndex": 6,
+              "Title": "Procesos.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\david\\source\\repos\\Sistema_Trinipan\\Sitema_Trinipan\\Procesos.cs",
+              "RelativeDocumentMoniker": "Sitema_Trinipan\\Procesos.cs",
+              "ToolTip": "C:\\Users\\david\\source\\repos\\Sistema_Trinipan\\Sitema_Trinipan\\Procesos.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Sitema_Trinipan\\Procesos.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-25T00:51:13.785Z"
+              "WhenOpened": "2024-07-05T02:07:05.989Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "MantenimientoProducto.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\david\\source\\repos\\Sistema_Trinipan\\Sitema_Trinipan\\MantenimientoProducto.cs",
               "RelativeDocumentMoniker": "Sitema_Trinipan\\MantenimientoProducto.cs",
               "ToolTip": "C:\\Users\\david\\source\\repos\\Sistema_Trinipan\\Sitema_Trinipan\\MantenimientoProducto.cs [Dise\u00F1o]",
               "RelativeToolTip": "Sitema_Trinipan\\MantenimientoProducto.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-25T00:51:12.058Z"
+              "WhenOpened": "2024-07-05T02:06:56.113Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MantenimientoCliente.cs",
-              "DocumentMoniker": "C:\\Users\\david\\source\\repos\\Sistema_Trinipan\\Sitema_Trinipan\\MantenimientoCliente.cs",
-              "RelativeDocumentMoniker": "Sitema_Trinipan\\MantenimientoCliente.cs",
-              "ToolTip": "C:\\Users\\david\\source\\repos\\Sistema_Trinipan\\Sitema_Trinipan\\MantenimientoCliente.cs",
-              "RelativeToolTip": "Sitema_Trinipan\\MantenimientoCliente.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-25T00:50:59.57Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "MantenimientoCliente.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\david\\source\\repos\\Sistema_Trinipan\\Sitema_Trinipan\\MantenimientoCliente.cs",
               "RelativeDocumentMoniker": "Sitema_Trinipan\\MantenimientoCliente.cs",
               "ToolTip": "C:\\Users\\david\\source\\repos\\Sistema_Trinipan\\Sitema_Trinipan\\MantenimientoCliente.cs [Dise\u00F1o]",
               "RelativeToolTip": "Sitema_Trinipan\\MantenimientoCliente.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-25T00:50:57.688Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Report1.rdlc [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\david\\source\\repos\\Sistema_Trinipan\\Sitema_Trinipan\\Report1.rdlc",
-              "RelativeDocumentMoniker": "Sitema_Trinipan\\Report1.rdlc",
-              "ToolTip": "C:\\Users\\david\\source\\repos\\Sistema_Trinipan\\Sitema_Trinipan\\Report1.rdlc [Dise\u00F1o]",
-              "RelativeToolTip": "Sitema_Trinipan\\Report1.rdlc [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001755|",
-              "WhenOpened": "2024-06-24T21:12:19.865Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Consultas.cs",
-              "DocumentMoniker": "C:\\Users\\david\\source\\repos\\Sistema_Trinipan\\Sitema_Trinipan\\Consultas.cs",
-              "RelativeDocumentMoniker": "Sitema_Trinipan\\Consultas.cs",
-              "ToolTip": "C:\\Users\\david\\source\\repos\\Sistema_Trinipan\\Sitema_Trinipan\\Consultas.cs",
-              "RelativeToolTip": "Sitema_Trinipan\\Consultas.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAAACQAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T20:55:07.61Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Consultas.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\david\\source\\repos\\Sistema_Trinipan\\Sitema_Trinipan\\Consultas.cs",
-              "RelativeDocumentMoniker": "Sitema_Trinipan\\Consultas.cs",
-              "ToolTip": "C:\\Users\\david\\source\\repos\\Sistema_Trinipan\\Sitema_Trinipan\\Consultas.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Sitema_Trinipan\\Consultas.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T20:55:05.24Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ConsultasProductos.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\david\\source\\repos\\Sistema_Trinipan\\Sitema_Trinipan\\ConsultasProductos.cs",
-              "RelativeDocumentMoniker": "Sitema_Trinipan\\ConsultasProductos.cs",
-              "ToolTip": "C:\\Users\\david\\source\\repos\\Sistema_Trinipan\\Sitema_Trinipan\\ConsultasProductos.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Sitema_Trinipan\\ConsultasProductos.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T20:54:28.005Z"
+              "WhenOpened": "2024-07-05T02:06:51.322Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "Factura.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\david\\source\\repos\\Sistema_Trinipan\\Sitema_Trinipan\\Factura.cs",
-              "RelativeDocumentMoniker": "Sitema_Trinipan\\Factura.cs",
-              "ToolTip": "C:\\Users\\david\\source\\repos\\Sistema_Trinipan\\Sitema_Trinipan\\Factura.cs [Dise\u00F1o]*",
-              "RelativeToolTip": "Sitema_Trinipan\\Factura.cs [Dise\u00F1o]*",
+              "Title": "Mantenimiento.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\david\\source\\repos\\Sistema_Trinipan\\Sitema_Trinipan\\Mantenimiento.cs",
+              "RelativeDocumentMoniker": "Sitema_Trinipan\\Mantenimiento.cs",
+              "ToolTip": "C:\\Users\\david\\source\\repos\\Sistema_Trinipan\\Sitema_Trinipan\\Mantenimiento.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Sitema_Trinipan\\Mantenimiento.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T03:21:02.02Z"
+              "WhenOpened": "2024-07-05T02:06:41.443Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Facturacion.cs",
-              "DocumentMoniker": "C:\\Users\\david\\source\\repos\\Sistema_Trinipan\\Sitema_Trinipan\\Facturacion.cs",
-              "RelativeDocumentMoniker": "Sitema_Trinipan\\Facturacion.cs",
-              "ToolTip": "C:\\Users\\david\\source\\repos\\Sistema_Trinipan\\Sitema_Trinipan\\Facturacion.cs",
-              "RelativeToolTip": "Sitema_Trinipan\\Facturacion.cs",
-              "ViewState": "AQIAAMUAAAAAAAAAAAAswN4AAAAlAAAA",
+              "DocumentIndex": 0,
+              "Title": "AdminUsuarios.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\david\\source\\repos\\Sistema_Trinipan\\Sitema_Trinipan\\AdminUsuarios.cs",
+              "RelativeDocumentMoniker": "Sitema_Trinipan\\AdminUsuarios.cs",
+              "ToolTip": "C:\\Users\\david\\source\\repos\\Sistema_Trinipan\\Sitema_Trinipan\\AdminUsuarios.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Sitema_Trinipan\\AdminUsuarios.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T01:53:07.723Z"
+              "WhenOpened": "2024-07-05T02:05:02.065Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 4,
+              "Title": "ReporteVentas.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\david\\source\\repos\\Sistema_Trinipan\\Sitema_Trinipan\\ReporteVentas.cs",
+              "RelativeDocumentMoniker": "Sitema_Trinipan\\ReporteVentas.cs",
+              "ToolTip": "C:\\Users\\david\\source\\repos\\Sistema_Trinipan\\Sitema_Trinipan\\ReporteVentas.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Sitema_Trinipan\\ReporteVentas.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T02:07:18.056Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Usuario.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\david\\source\\repos\\Sistema_Trinipan\\Sitema_Trinipan\\Usuario.cs",
+              "RelativeDocumentMoniker": "Sitema_Trinipan\\Usuario.cs",
+              "ToolTip": "C:\\Users\\david\\source\\repos\\Sistema_Trinipan\\Sitema_Trinipan\\Usuario.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Sitema_Trinipan\\Usuario.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T02:07:27.41Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Login.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\david\\source\\repos\\Sistema_Trinipan\\Sitema_Trinipan\\Login.cs",
+              "RelativeDocumentMoniker": "Sitema_Trinipan\\Login.cs",
+              "ToolTip": "C:\\Users\\david\\source\\repos\\Sistema_Trinipan\\Sitema_Trinipan\\Login.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Sitema_Trinipan\\Login.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T02:06:19.253Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Inicio.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\david\\source\\repos\\Sistema_Trinipan\\Sitema_Trinipan\\Inicio.cs",
+              "RelativeDocumentMoniker": "Sitema_Trinipan\\Inicio.cs",
+              "ToolTip": "C:\\Users\\david\\source\\repos\\Sistema_Trinipan\\Sitema_Trinipan\\Inicio.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Sitema_Trinipan\\Inicio.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T02:06:15.066Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Registrar.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\david\\source\\repos\\Sistema_Trinipan\\Sitema_Trinipan\\Registrar.cs",
+              "RelativeDocumentMoniker": "Sitema_Trinipan\\Registrar.cs",
+              "ToolTip": "C:\\Users\\david\\source\\repos\\Sistema_Trinipan\\Sitema_Trinipan\\Registrar.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Sitema_Trinipan\\Registrar.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T02:00:50.299Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "FormBase.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\david\\source\\repos\\Sistema_Trinipan\\Sitema_Trinipan\\FormBase.cs",
+              "RelativeDocumentMoniker": "Sitema_Trinipan\\FormBase.cs",
+              "ToolTip": "C:\\Users\\david\\source\\repos\\Sistema_Trinipan\\Sitema_Trinipan\\FormBase.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Sitema_Trinipan\\FormBase.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T02:06:11.041Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "Facturacion.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\david\\source\\repos\\Sistema_Trinipan\\Sitema_Trinipan\\Facturacion.cs",
               "RelativeDocumentMoniker": "Sitema_Trinipan\\Facturacion.cs",
               "ToolTip": "C:\\Users\\david\\source\\repos\\Sistema_Trinipan\\Sitema_Trinipan\\Facturacion.cs [Dise\u00F1o]",
               "RelativeToolTip": "Sitema_Trinipan\\Facturacion.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T13:38:08.007Z"
+              "WhenOpened": "2024-07-05T02:06:05.907Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Factura.cs",
+              "DocumentIndex": 14,
+              "Title": "Factura.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\david\\source\\repos\\Sistema_Trinipan\\Sitema_Trinipan\\Factura.cs",
               "RelativeDocumentMoniker": "Sitema_Trinipan\\Factura.cs",
-              "ToolTip": "C:\\Users\\david\\source\\repos\\Sistema_Trinipan\\Sitema_Trinipan\\Factura.cs*",
-              "RelativeToolTip": "Sitema_Trinipan\\Factura.cs*",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABUAAAAMAAAA",
+              "ToolTip": "C:\\Users\\david\\source\\repos\\Sistema_Trinipan\\Sitema_Trinipan\\Factura.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Sitema_Trinipan\\Factura.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T21:16:26.782Z"
+              "WhenOpened": "2024-07-05T02:06:01.771Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Contrase\u00F1a.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\david\\source\\repos\\Sistema_Trinipan\\Sitema_Trinipan\\Contrase\u00F1a.cs",
+              "RelativeDocumentMoniker": "Sitema_Trinipan\\Contrase\u00F1a.cs",
+              "ToolTip": "C:\\Users\\david\\source\\repos\\Sistema_Trinipan\\Sitema_Trinipan\\Contrase\u00F1a.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Sitema_Trinipan\\Contrase\u00F1a.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T02:05:35.602Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ContenedorPrincipal.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\david\\source\\repos\\Sistema_Trinipan\\Sitema_Trinipan\\ContenedorPrincipal.cs",
+              "RelativeDocumentMoniker": "Sitema_Trinipan\\ContenedorPrincipal.cs",
+              "ToolTip": "C:\\Users\\david\\source\\repos\\Sistema_Trinipan\\Sitema_Trinipan\\ContenedorPrincipal.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Sitema_Trinipan\\ContenedorPrincipal.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T02:05:32.458Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ConsultasProductos.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\david\\source\\repos\\Sistema_Trinipan\\Sitema_Trinipan\\ConsultasProductos.cs",
+              "RelativeDocumentMoniker": "Sitema_Trinipan\\ConsultasProductos.cs",
+              "ToolTip": "C:\\Users\\david\\source\\repos\\Sistema_Trinipan\\Sitema_Trinipan\\ConsultasProductos.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Sitema_Trinipan\\ConsultasProductos.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T02:05:27.459Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ConsultasClientes.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\david\\source\\repos\\Sistema_Trinipan\\Sitema_Trinipan\\ConsultasClientes.cs",
+              "RelativeDocumentMoniker": "Sitema_Trinipan\\ConsultasClientes.cs",
+              "ToolTip": "C:\\Users\\david\\source\\repos\\Sistema_Trinipan\\Sitema_Trinipan\\ConsultasClientes.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Sitema_Trinipan\\ConsultasClientes.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T02:05:22.101Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "CambiarFoto.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\david\\source\\repos\\Sistema_Trinipan\\Sitema_Trinipan\\CambiarFoto.cs",
+              "RelativeDocumentMoniker": "Sitema_Trinipan\\CambiarFoto.cs",
+              "ToolTip": "C:\\Users\\david\\source\\repos\\Sistema_Trinipan\\Sitema_Trinipan\\CambiarFoto.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Sitema_Trinipan\\CambiarFoto.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T02:05:10.441Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Administrador.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\david\\source\\repos\\Sistema_Trinipan\\Sitema_Trinipan\\Administrador.cs",
+              "RelativeDocumentMoniker": "Sitema_Trinipan\\Administrador.cs",
+              "ToolTip": "C:\\Users\\david\\source\\repos\\Sistema_Trinipan\\Sitema_Trinipan\\Administrador.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Sitema_Trinipan\\Administrador.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T02:04:56.916Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ActualizacionDeDatos.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\david\\source\\repos\\Sistema_Trinipan\\Sitema_Trinipan\\ActualizacionDeDatos.cs",
+              "RelativeDocumentMoniker": "Sitema_Trinipan\\ActualizacionDeDatos.cs",
+              "ToolTip": "C:\\Users\\david\\source\\repos\\Sistema_Trinipan\\Sitema_Trinipan\\ActualizacionDeDatos.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Sitema_Trinipan\\ActualizacionDeDatos.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T02:04:44.513Z",
+              "EditorCaption": " [Dise\u00F1o]"
             }
           ]
         }

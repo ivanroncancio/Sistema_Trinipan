@@ -25,6 +25,10 @@ namespace LibreriaDLL
         {
             get; set;
         }
+        public Boolean ValidarCorreo
+        {
+            get; set;
+        }
 
 
 

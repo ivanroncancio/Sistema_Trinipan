@@ -6,6 +6,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -20,6 +21,15 @@ namespace Sitema_Trinipan
         {
             InitializeComponent();
         }
+
+
+        [DllImport("user32.DLL", EntryPoint = "ReleaseCapture")]
+        private extern static void ReleaseCapture();
+        [DllImport("user32.DLL", EntryPoint = "SendMessage")]
+        private static extern void SendMessage(IntPtr hwnd, int wMsg, int wParam, int lParam);
+
+
+
 
         private void Facturacion_Load(object sender, EventArgs e)
         {
@@ -53,71 +63,7 @@ namespace Sitema_Trinipan
         public static int contadorFila = 0;
         public static double total;
 
-        private void btn_Colocar_Click(object sender, EventArgs e)
-        {
-            if (Biblioteca.ValidarFormulario(this, errorProvider1) == false)
-            {
-                bool existe = false;
-                int NumeroFila = 0;
-
-                if (contadorFila == 0)
-                {
-                    dataGridView1.Rows.Add(TexBox_CodigoArticulo.Text.Trim(), TexBox_DescripcionArticulo.Text.Trim(), TexBox_PrecioArticulo.Text.Trim(), TexBox_CantidadArticulo.Text.Trim());
-                    double importe = Convert.ToDouble(dataGridView1.Rows[contadorFila].Cells[2].Value) * Convert.ToDouble(dataGridView1.Rows[contadorFila].Cells[3].Value);
-                    dataGridView1.Rows[contadorFila].Cells[4].Value = importe;
-                    
-                    
-                    contadorFila++;
-
-                }
-                else
-                {
-                    foreach (DataGridViewRow Fila in dataGridView1.Rows)
-                    {
-                        if (Fila.Cells[0].Value.ToString() == TexBox_CodigoArticulo.Text.Trim())
-                        {
-                            existe = true;
-                            NumeroFila = Fila.Index;
-
-                            
-
-                        }
-                        
-                    }
-
-                    if (existe == true)
-                    {
-                        dataGridView1.Rows[NumeroFila].Cells[3].Value = (Convert.ToDouble(TexBox_CantidadArticulo.Text) + Convert.ToDouble(dataGridView1.Rows[NumeroFila].Cells[3].Value)).ToString();
-                        double importe = Convert.ToDouble(dataGridView1.Rows[NumeroFila].Cells[2].Value) * Convert.ToDouble(dataGridView1.Rows[NumeroFila].Cells[3].Value);
-                        dataGridView1.Rows[NumeroFila].Cells[4].Value = importe;
-                    }
-                    else
-                    {
-                        dataGridView1.Rows.Add(TexBox_CodigoArticulo.Text.Trim(), TexBox_DescripcionArticulo.Text.Trim(), TexBox_PrecioArticulo.Text.Trim(), TexBox_CantidadArticulo.Text.Trim());
-                        double importe = Convert.ToDouble(dataGridView1.Rows[contadorFila].Cells[2].Value) * Convert.ToDouble(dataGridView1.Rows[contadorFila].Cells[3].Value);
-                        dataGridView1.Rows[contadorFila].Cells[4].Value = importe;
-
-                        contadorFila++;
-
-                        
-                        
-
-                    }
-
-
-
-                }
-
-                total = 0;
-                foreach (DataGridViewRow Fila in dataGridView1.Rows)
-                {
-                    total += Convert.ToDouble(Fila.Cells[4].Value);
-                    
-                }
-                lbl_Total.Text = "$ " + total.ToString();
-
-            }
-        }
+       
 
         private void btn_Eliminar_Click(object sender, EventArgs e)
         {
@@ -227,6 +173,116 @@ namespace Sitema_Trinipan
                 
 
             }
+        }
+
+        private void TexBox_CodigoArticulo_TextChanged(object sender, EventArgs e)
+        {
+            errorProvider1.Clear();
+        }
+
+        private void TexBox_CantidadArticulo_TextChanged(object sender, EventArgs e)
+        {
+            errorProvider1.Clear();
+        }
+
+        private void pictureBox6_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+        }
+
+        private void pictureBox5_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+        }
+
+        private void btn_colocar_Click_1(object sender, EventArgs e)
+        {
+            if (Biblioteca.ValidarFormulario(this, errorProvider1) == false)
+            {
+                bool existe = false;
+                int NumeroFila = 0;
+
+                if (string.IsNullOrEmpty(TexBox_CantidadArticulo.Text.Trim()) == false)
+                {
+                    if (contadorFila == 0)
+                    {
+                        dataGridView1.Rows.Add(TexBox_CodigoArticulo.Text.Trim(), TexBox_DescripcionArticulo.Text.Trim(), TexBox_PrecioArticulo.Text.Trim(), TexBox_CantidadArticulo.Text.Trim());
+                        double importe = Convert.ToDouble(dataGridView1.Rows[contadorFila].Cells[2].Value) * Convert.ToDouble(dataGridView1.Rows[contadorFila].Cells[3].Value);
+                        dataGridView1.Rows[contadorFila].Cells[4].Value = importe;
+
+
+                        contadorFila++;
+
+                        TexBox_CodigoArticulo.Text = "";
+                        TexBox_DescripcionArticulo.Text = "";
+                        TexBox_PrecioArticulo.Text = "";
+                        TexBox_CantidadArticulo.Text = "";
+
+
+
+                    }
+                    else
+                    {
+                        foreach (DataGridViewRow Fila in dataGridView1.Rows)
+                        {
+                            if (Fila.Cells[0].Value.ToString() == TexBox_CodigoArticulo.Text.Trim())
+                            {
+                                existe = true;
+                                NumeroFila = Fila.Index;
+
+
+
+                            }
+
+                        }
+
+                        if (existe == true)
+                        {
+                            dataGridView1.Rows[NumeroFila].Cells[3].Value = Convert.ToDouble(TexBox_CantidadArticulo.Text);
+                            double importe = Convert.ToDouble(dataGridView1.Rows[NumeroFila].Cells[2].Value) * Convert.ToDouble(dataGridView1.Rows[NumeroFila].Cells[3].Value);
+                            dataGridView1.Rows[NumeroFila].Cells[4].Value = importe;
+                        }
+                        else
+                        {
+                            dataGridView1.Rows.Add(TexBox_CodigoArticulo.Text.Trim(), TexBox_DescripcionArticulo.Text.Trim(), TexBox_PrecioArticulo.Text.Trim(), TexBox_CantidadArticulo.Text.Trim());
+                            double importe = Convert.ToDouble(dataGridView1.Rows[contadorFila].Cells[2].Value) * Convert.ToDouble(dataGridView1.Rows[contadorFila].Cells[3].Value);
+                            dataGridView1.Rows[contadorFila].Cells[4].Value = importe;
+
+                            contadorFila++;
+
+                            TexBox_CodigoArticulo.Text = "";
+                            TexBox_DescripcionArticulo.Text = "";
+                            TexBox_PrecioArticulo.Text = "";
+                            TexBox_CantidadArticulo.Text = "";
+
+
+
+                        }
+
+
+
+                    }
+
+                    total = 0;
+                    foreach (DataGridViewRow Fila in dataGridView1.Rows)
+                    {
+                        total += Convert.ToDouble(Fila.Cells[4].Value);
+
+                    }
+                    lbl_Total.Text = "$ " + total.ToString();
+                }
+                else
+                {
+                    MessageBox.Show("¡Debes agregar la cantidad deseada!");
+                }
+
+            }
+        }
+
+        private void Facturacion_MouseDown(object sender, MouseEventArgs e)
+        {
+            ReleaseCapture();
+            SendMessage(this.Handle, 0x112, 0xf012, 0);
         }
     }
 }

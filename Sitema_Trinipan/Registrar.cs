@@ -8,6 +8,7 @@ using System.Drawing;
 using System.Drawing.Imaging;
 using System.IO;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -20,6 +21,17 @@ namespace Sitema_Trinipan
         {
             InitializeComponent();
         }
+
+
+
+        [DllImport("user32.DLL", EntryPoint = "ReleaseCapture")]
+        private extern static void ReleaseCapture();
+        [DllImport("user32.DLL", EntryPoint = "SendMessage")]
+        private static extern void SendMessage(IntPtr hwnd, int wMsg, int wParam, int lParam);
+
+
+
+
 
         SqlConnection conexion = new SqlConnection("Data Source=IVAN\\SQLEXPRES;Initial Catalog=Sistema_Trinipan;Integrated Security=True;Encrypt=False");
 
@@ -75,6 +87,33 @@ namespace Sitema_Trinipan
             {
                 pictureBox1.Image = Image.FromFile(foto.FileName);
             }
+        }
+
+        private void pictureBox5_Click(object sender, EventArgs e)
+        {
+            var salir = MessageBox.Show("¿Deseas cerrar la aplicacion?","Aviso",MessageBoxButtons.YesNo,MessageBoxIcon.Question);
+
+            if (salir == DialogResult.Yes)
+            {
+                Application.Exit();
+            }
+
+        }
+
+        private void Registrar_MouseDown(object sender, MouseEventArgs e)
+        {
+            ReleaseCapture();
+            SendMessage(this.Handle, 0x112, 0xf012, 0);
+        }
+
+        private void pictureBox6_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+        }
+
+        private void TexBox_id_TextChanged(object sender, EventArgs e)
+        {
+            errorProvider1.Clear();
         }
     }
 }

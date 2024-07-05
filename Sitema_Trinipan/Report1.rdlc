@@ -79,7 +79,7 @@
           <Paragraph>
             <TextRuns>
               <TextRun>
-                <Value>Nombre Cliente:</Value>
+                <Value>Nombre:</Value>
                 <Style />
               </TextRun>
             </TextRuns>
@@ -90,7 +90,7 @@
         <Top>5.80333cm</Top>
         <Left>0.3259cm</Left>
         <Height>0.6cm</Height>
-        <Width>2.68521cm</Width>
+        <Width>1.70625cm</Width>
         <ZIndex>2</ZIndex>
         <Style>
           <Border>
@@ -109,7 +109,7 @@
           <Paragraph>
             <TextRuns>
               <TextRun>
-                <Value>Apellido Cliente:</Value>
+                <Value>Apellido;</Value>
                 <Style />
               </TextRun>
             </TextRuns>
@@ -120,7 +120,7 @@
         <Top>6.69713cm</Top>
         <Left>0.3259cm</Left>
         <Height>0.6cm</Height>
-        <Width>2.68521cm</Width>
+        <Width>1.70625cm</Width>
         <ZIndex>3</ZIndex>
         <Style>
           <Border>
@@ -199,7 +199,7 @@
           <Paragraph>
             <TextRuns>
               <TextRun>
-                <Value>Codigo Cliente:</Value>
+                <Value>Codigo:</Value>
                 <Style />
               </TextRun>
             </TextRuns>
@@ -210,7 +210,7 @@
         <Top>7.59671cm</Top>
         <Left>0.3259cm</Left>
         <Height>0.6cm</Height>
-        <Width>2.6323cm</Width>
+        <Width>1.70625cm</Width>
         <ZIndex>6</ZIndex>
         <Style>
           <Border>
@@ -314,14 +314,16 @@
                 <Style />
               </TextRun>
             </TextRuns>
-            <Style />
+            <Style>
+              <TextAlign>Left</TextAlign>
+            </Style>
           </Paragraph>
         </Paragraphs>
         <rd:DefaultName>Nombre_cliente</rd:DefaultName>
         <Top>5.84026cm</Top>
-        <Left>3.24094cm</Left>
+        <Left>2.21982cm</Left>
         <Height>0.6cm</Height>
-        <Width>2.5cm</Width>
+        <Width>5.36858cm</Width>
         <ZIndex>10</ZIndex>
         <Style>
           <Border>
@@ -663,9 +665,9 @@
         </Paragraphs>
         <rd:DefaultName>CodigoCliente1</rd:DefaultName>
         <Top>7.54848cm</Top>
-        <Left>3.24094cm</Left>
+        <Left>2.21982cm</Left>
         <Height>0.64823cm</Height>
-        <Width>2.4959cm</Width>
+        <Width>5.36858cm</Width>
         <ZIndex>12</ZIndex>
         <Style>
           <Border>
@@ -750,14 +752,16 @@
                 <Style />
               </TextRun>
             </TextRuns>
-            <Style />
+            <Style>
+              <TextAlign>Left</TextAlign>
+            </Style>
           </Paragraph>
         </Paragraphs>
         <rd:DefaultName>Apellido_cliente</rd:DefaultName>
         <Top>6.7087cm</Top>
-        <Left>3.22966cm</Left>
+        <Left>2.20854cm</Left>
         <Height>0.64823cm</Height>
-        <Width>2.5cm</Width>
+        <Width>5.37986cm</Width>
         <ZIndex>15</ZIndex>
         <Style>
           <Border>

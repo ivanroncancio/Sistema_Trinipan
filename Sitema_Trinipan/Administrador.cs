@@ -6,6 +6,7 @@ using System.Data;
 using System.Drawing;
 using System.IO;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -18,6 +19,12 @@ namespace Sitema_Trinipan
         {
             InitializeComponent();
         }
+
+        [DllImport("user32.DLL", EntryPoint = "ReleaseCapture")]
+        private extern static void ReleaseCapture();
+        [DllImport("user32.DLL", EntryPoint = "SendMessage")]
+        private static extern void SendMessage(IntPtr hwnd, int wMsg, int wParam, int lParam);
+
 
         private void Administrador_Load(object sender, EventArgs e)
         {
@@ -54,6 +61,34 @@ namespace Sitema_Trinipan
             adminUsuarios.Show();
             
 
+        }
+
+        private void pictureBox5_Click(object sender, EventArgs e)
+        {
+            var salir = MessageBox.Show("¿Desea salir de aplicación?","Aviso",MessageBoxButtons.YesNo,MessageBoxIcon.Warning);
+
+            if (salir == DialogResult.Yes)
+            {
+                Application.Exit();
+            }
+        }
+
+        private void pictureBox6_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+        }
+
+        private void Administrador_MouseDown(object sender, MouseEventArgs e)
+        {
+            ReleaseCapture();
+            SendMessage(this.Handle, 0x112, 0xf012, 0);
+        }
+
+        private void bnt_ActualizarDatos_Click(object sender, EventArgs e)
+        {
+            ActualizacionDeDatos actualizacionDeDatos = new ActualizacionDeDatos();
+            this.Hide();
+            actualizacionDeDatos.Show();    
         }
     }
 }

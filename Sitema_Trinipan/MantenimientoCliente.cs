@@ -5,6 +5,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -17,6 +18,17 @@ namespace Sitema_Trinipan
         {
             InitializeComponent();
         }
+
+
+
+        [DllImport("user32.DLL", EntryPoint = "ReleaseCapture")]
+        private extern static void ReleaseCapture();
+        [DllImport("user32.DLL", EntryPoint = "SendMessage")]
+        private static extern void SendMessage(IntPtr hwnd, int wMsg, int wParam, int lParam);
+
+
+
+
 
         private void btn_Consultar_Click(object sender, EventArgs e)
         {
@@ -93,6 +105,22 @@ namespace Sitema_Trinipan
         private void TexBox_idCliente_TextChanged(object sender, EventArgs e)
         {
             errorProvider1.Clear();
+        }
+
+        private void pictureBox5_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void pictureBox6_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+        }
+
+        private void MantenimientoCliente_MouseDown(object sender, MouseEventArgs e)
+        {
+            ReleaseCapture();
+            SendMessage(this.Handle, 0x112, 0xf012, 0);
         }
     }
 }

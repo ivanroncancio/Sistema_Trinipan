@@ -8,6 +8,7 @@ using System.Drawing;
 using System.Drawing.Imaging;
 using System.IO;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -20,11 +21,26 @@ namespace Sitema_Trinipan
         {
             InitializeComponent();
         }
-        SqlConnection conexion = new SqlConnection("Data Source=IVAN\\SQLEXPRES;Initial Catalog=Sistema_Trinipan;Integrated Security=True;Encrypt=False");
 
+
+
+        [DllImport("user32.DLL", EntryPoint = "ReleaseCapture")]
+        private extern static void ReleaseCapture();
+        [DllImport("user32.DLL", EntryPoint = "SendMessage")]
+        private static extern void SendMessage(IntPtr hwnd, int wMsg, int wParam, int lParam);
+
+
+
+
+
+
+        SqlConnection conexion = new SqlConnection("Data Source=IVAN\\SQLEXPRES;Initial Catalog=Sistema_Trinipan;Integrated Security=True;Encrypt=False");
         
+        public static int validar = 0;
         private void btn_Guardar_Click(object sender, EventArgs e)
         {
+            conexion.Open();
+
             if (Biblioteca.ValidarFormulario(this, errorProvider1) == false)
             {
                 try
@@ -33,12 +49,14 @@ namespace Sitema_Trinipan
                     {
                         if (radioButton2.Checked == true || radioButton1.Checked == true)
                         {
-                            int validar = 0;
-                            radioButton2.Checked = true;
 
                             if (radioButton1.Checked == true)
                             {
                                 validar = 1;
+                            }
+                            else if (radioButton2.Checked == true) 
+                            {
+                                validar = 0;
                             }
 
 
@@ -46,7 +64,7 @@ namespace Sitema_Trinipan
                             pictureBox1.Image.Save(ms, ImageFormat.Jpeg);
                             byte[] data = ms.ToArray();
 
-                            conexion.Open();
+                            
                             string consulta = "insert into Usuarios values(" + TexBox_id.Text + ",'" + TexBox_Nombre.Text + "','" + TexBox_Cuenta.Text + "','" + TexBox_Contrasena.Text + "'," + validar + ",@imagen)";
                             SqlCommand cmd = new SqlCommand(consulta, conexion);
                             cmd.Parameters.AddWithValue("imagen", data);
@@ -60,10 +78,13 @@ namespace Sitema_Trinipan
                             TexBox_id.Text = "";
                             TexBox_Contrasena.Text = "";
                             TexBox_ConfiContrasena.Text = "";
+                            TexBox_Correo.Text = "";
 
                             radioButton1.Checked = false;
+                            radioButton2 .Checked = false;
 
                             TexBox_id.Focus();
+
                         }
                         else
                         {
@@ -76,24 +97,45 @@ namespace Sitema_Trinipan
                         MessageBox.Show("¡Las contraseñas no coniciden!", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Stop);
                     }
                 }
-                catch
+                catch(SqlException ex)
                 {
-                    MessageBox.Show("Error", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show("el nuemro "+ TexBox_id.Text + " de identificación ya existe", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    conexion.Close();
+
+                    TexBox_Nombre.Text = "";
+                    TexBox_Cuenta.Text = "";
+                    TexBox_id.Text = "";
+                    TexBox_Contrasena.Text = "";
+                    TexBox_ConfiContrasena.Text = "";
+                    TexBox_Correo.Text = "";
+                    radioButton1.Checked = false;
+                    radioButton2.Checked = false;
+
+                    TexBox_id.Focus();
                 }
 
 
             }
+            conexion.Close();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            OpenFileDialog foto = new OpenFileDialog();
-            DialogResult rs = foto.ShowDialog();
-
-            if (rs == DialogResult.OK)
+            try
             {
-                pictureBox1.Image = Image.FromFile(foto.FileName);
+                OpenFileDialog foto = new OpenFileDialog();
+                DialogResult rs = foto.ShowDialog();
+
+                if (rs == DialogResult.OK)
+                {
+                    pictureBox1.Image = Image.FromFile(foto.FileName);
+                }
             }
+            catch
+            {
+                MessageBox.Show("Sole se aceptan imagenes");
+            }
+            
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -108,6 +150,32 @@ namespace Sitema_Trinipan
                 administrador.Show();
             }
 
+        }
+
+        private void errorTexBox1_TextChanged(object sender, EventArgs e)
+        {
+            errorProvider1.Clear();
+        }
+
+        private void pictureBox6_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+        }
+
+        private void pictureBox5_Click(object sender, EventArgs e)
+        {
+            var salir = MessageBox.Show("¿Desea salir de la aplicacion?","Aviso",MessageBoxButtons.YesNo,MessageBoxIcon.Question);
+
+            if (salir == DialogResult.Yes)
+            {
+                Application.Exit();
+            }
+        }
+
+        private void AdminUsuarios_MouseDown(object sender, MouseEventArgs e)
+        {
+            ReleaseCapture();
+            SendMessage(this.Handle, 0x112, 0xf012, 0);
         }
     }
 }
